@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+.field{
+    border: 2px solid black;
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px aqua;
+}
+h1{
+    text-align: center;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-left: 34%;
+    margin-top: 2%;
+    background-image: url("https://wallpapercave.com/wp/wp4586990.jpg");
+    background-repeat: no-repeat;
+    background-size: 1366px 720px;
+    opacity: 80%;
+}
+form{
+    padding-left: 12%;
+    padding-top: 2%;
+}
+input{
+    height: 30px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.field button{
+margin-left: 25%;
+margin-top: 6%;
+background-color: black;
+color: whitesmoke;
+width: 120px;
+height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:larger;
+font-weight: 600;
+}
+.field button:hover{
+    background-color: white;
+    color: black;
+}
+.field button:active{
+    background-color:aqua;
+    color: black;
+}
+.field label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.field a{
+    color: aqua;
+}
+#l1{
+    margin-left: 2%;
+}
+.images{
+    margin-left: 13%;
+}
+::placeholder {
+  color: white;
+}
+#agree{
+    width: 300px;
+}
+</style>
+<body>
+    <div class="field">
+        <h1>Register Here</h1>
+        <form action="">
+            <input type="text" placeholder="Enter first name" required>
+            <br><br>
+            <input type="text" placeholder="Enter last name" required>
+            <br><br>
+            <input type="email" placeholder="Enter Email here" required>
+            <br><br>
+            <input type="date" placeholder="Enter date of birth" required>
+            <br><br>
+            <input type="password" placeholder="Enter password" required>
+            <br><br>
+            <input type="password" placeholder="confirm password" required>
+            <br><br>
+            <table>
+                    <td>
+                        <input type="checkbox" style="width: 16px;" required>
+                    </td>
+                    <td id="agree">
+                        <label for="terms" id="l1">Agree trems and conditions</label>
+                    </td>
+            </table>
+            <button onclick='alert("Successfully Submitted")'>Submit</button>
+            <br>
+        </form>
+    </div>
+</body>
+</html>
