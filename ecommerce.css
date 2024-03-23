@@ -12,7 +12,7 @@
 li{
     display: inline;
     padding-right: 130px;
-    padding-left: 30px;
+    margin-left: 60px;
     font-weight: 600;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -23,6 +23,7 @@ span{
     border: 2px solid teal;
     background-color: teal;
     color: wheat;
+    height: 50px;
 }
 td img{
     margin-left: 180px;
@@ -49,20 +50,19 @@ td img{
     border: 2px solid teal;
     border-radius: 10px;
     margin-left: 180px;
-    width: 200px;
-    min-height: 80px;
+    width: 220px;
+    min-height: 120px;
     text-align: center;
     background-color: teal;
-    color: wheat;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 .botbox img{
     width: 100px;
-    margin-left: 0px;
+    margin-left: 5px;
     padding-bottom: 20px;
     margin-top: 10px;
-    border-radius: 10px;
 }
 i{
     font-size: 34px;
@@ -72,4 +72,7 @@ i{
 h4{
     text-align: center;
     margin-left: 130px;
+}
+span{
+    float: left;
 }
