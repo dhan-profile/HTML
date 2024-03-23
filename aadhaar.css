@@ -1,0 +1,50 @@
+.bar1{
+    border: 2px solid red;
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 2px 5px 0px black;
+}
+.bar1 h3{
+    margin-top: 0px;
+}
+.head img{
+    background-position: left;
+    width: 200px;
+}
+fieldset{
+    font-weight: bold;
+}
+fieldset label{
+    margin-right: 140px;
+    text-align: left;
+}
+fieldset input{
+    margin-right: 50px;
+}
+#area{
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#radio{
+    margin-right: 0px;
+}
+#urban{
+    margin-right: 0px;
+}
+#ec select{
+    margin-left: 0px;
+}
+#check{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+#loc{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#submit{
+    background-color: red;
+    color: white;
+}

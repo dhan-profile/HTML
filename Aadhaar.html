@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar</title>
+    <style>
+        .bar1{
+    border: 2px solid red;
+    height: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 2px 5px 0px black;
+}
+.bar1 h3{
+    margin-top: 0px;
+}
+.head img{
+    background-position: left;
+    width: 200px;
+}
+fieldset{
+    font-weight: bold;
+}
+fieldset label{
+    margin-right: 140px;
+    text-align: left;
+}
+fieldset input{
+    margin-right: 50px;
+}
+#area{
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#radio{
+    margin-right: 0px;
+}
+#urban{
+    margin-right: 0px;
+}
+#ec select{
+    margin-left: 0px;
+}
+#check{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+#loc{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#submit{
+    background-color: red;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img src="https://assets.thehansindia.com/hansindia-bucket/UIDAI_3569.jpg" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Aadhaar_Logo.jpg/1024px-Aadhaar_Logo.jpg" alt="" style="width: 100px; margin-left: 1000px;">
+    </div>
+    <div class="headright">
+    </div>
+    <div class="bar1">
+        <h3>Appointment for Aadhaar Enrollment</h3>
+    </div>
+    <fieldset>
+        <legend><h3>please enter the following details in order to book an appointment</h3></legend>
+        <label for="name">Name*</label>
+        <input type="text">
+        <label for="email">Email*</label>
+        <input type="email">
+        <label for="mobile">Mobile*</label>
+        <input type="tel">
+        <br><br><br>
+        <button>Submit</button>
+    </fieldset>
+    <div class="bar1">
+        <h3>Select Enrollment Center</h3>
+    </div>
+    <fieldset>
+        <legend><h3>select enrollment center</h3></legend>
+        <label for="name">State UI*</label>
+        <select name="state" id="state">
+            <option value="state1">Maharastra</option>
+            <option value="state2">Telengana</option>
+            <option value="state3">Bihar</option>
+            <option value="state4">Rajasthan</option>
+            <option value="state4">TamilNadu</option>
+            <option value="state4">Karnataka</option>
+            <option value="state4">Kerala</option>
+            <option value="state4">AndhraPradesh</option>
+            <option value="state4">MadhyaPradesh</option>
+        </select>
+        <br><br>
+        <label for="city">City*</label>
+        <select name="city" id="city">
+            <option value="city1">Mumbai</option>
+            <option value="city2">NaviMumbai</option>
+            <option value="city3">Nagpur</option>
+            <option value="city4">Pune</option>
+        </select>
+        <br><br>
+        <label for="ec">Enrollment centre*</label>
+        <select name="ec" id="ec">
+            <option value="city1">Tirunelveli Near Junction</option>
+            <option value="city2">Thutukudi Junction</option>
+            <option value="city3">SBI Bank</option>
+            <option value="city4">Collector Office</option>
+        </select>
+        <label for="area" id="area">Area type: </label>
+        <input type="radio" id="radio"> 
+        <label for="urban" id="urban">urban</label>
+        <input type="radio" id="radio"> 
+        <label for="rural">rural</label>
+        <label for="ec" id="loc">Locality*</label>
+        <select name="city" id="city">
+            <option value="city1">Mumbai</option>
+            <option value="city2">NaviMumbai</option>
+            <option value="city3">Nagpur</option>
+            <option value="city4">Pune</option>
+        </select>
+        <label for="check" id="check">Check Availability</label>
+        <br>
+    </fieldset>
+    <div class="bar1">
+        <h3>Select Date and Time for Appointment</h3>
+    </div>
+    <fieldset>
+        <legend><h3>Select Date and Time for Appointment</h3></legend>
+        <label for="date">Date*</label>
+        <input type="date">
+        <label for="Time">Time*</label>
+        <input type="time">
+        <br>
+    </fieldset>
+    <button id="submit">Submit</button>
+</body>
+</html>
