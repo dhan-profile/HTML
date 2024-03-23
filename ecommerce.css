@@ -1,0 +1,75 @@
+.bar1{
+    border: 2px solid turquoise;
+    height: 20px;
+    background-color: turquoise;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 2px 5px 0px black;
+}
+.bar1 h3{
+    margin-top: 0px;
+}
+li{
+    display: inline;
+    padding-right: 130px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    text-align: center;
+}
+.navbar{
+    border: 2px solid teal;
+    background-color: teal;
+    color: wheat;
+}
+td img{
+    margin-left: 180px;
+    width: 200px;
+    margin-top: 50px;
+}
+#img1{
+    margin-left: 140px;
+    width: 150px;
+}
+.box{
+    border: 2px solid teal;
+    border-radius: 10px;
+    margin-left: 120px;
+    width: 170px;
+    min-height: 80px;
+    text-align: center;
+    background-color: teal;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.botbox{
+    border: 2px solid teal;
+    border-radius: 10px;
+    margin-left: 180px;
+    width: 200px;
+    min-height: 80px;
+    text-align: center;
+    background-color: teal;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.botbox img{
+    width: 100px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+i{
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+    margin-left: 130px;
+}
