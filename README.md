@@ -6,3 +6,4 @@
 # Register Form
 <img>![Register Form HTML](https://github.com/dhan-profile/HTML/assets/29054766/71c44816-4aa4-4e82-98c0-e296113fbee0)
 </img>
+.
